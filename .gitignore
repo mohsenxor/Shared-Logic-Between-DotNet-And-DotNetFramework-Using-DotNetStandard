@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs/Share-Logic-Between-DotNet-And-DotNetFramework-Using-DotNetStandard/DesignTimeBuild/.dtbcache.v2
