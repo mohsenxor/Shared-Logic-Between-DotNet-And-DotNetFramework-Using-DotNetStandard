@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetStandard", "DotNetStandard", "{2C227BE4-035E-45A1-A39A-FAD2025CD770}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetCore", "DotNetCore", "{BF7584EE-A12A-441C-8244-765DB522A9A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetFramework", "DotNetFramework", "{09525277-C49F-448E-893F-598D00D8B431}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger.Core", "Logger.Core\Logger.Core.csproj", "{7DF034DD-C7E9-4929-B8BE-1090CB58D2EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger.DotNetFramework.Console", "Logger.DotNetFramework.Console\Logger.DotNetFramework.Console.csproj", "{5F8A386B-D72C-46DD-A5F5-D8E6038B9400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger.DotNetCore.WebApi", "Logger.DotNetCore.WebApi\Logger.DotNetCore.WebApi.csproj", "{ACD6530D-1534-4CB6-9749-B8CB9FFDF9F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DF034DD-C7E9-4929-B8BE-1090CB58D2EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF034DD-C7E9-4929-B8BE-1090CB58D2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF034DD-C7E9-4929-B8BE-1090CB58D2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF034DD-C7E9-4929-B8BE-1090CB58D2EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8A386B-D72C-46DD-A5F5-D8E6038B9400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8A386B-D72C-46DD-A5F5-D8E6038B9400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8A386B-D72C-46DD-A5F5-D8E6038B9400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8A386B-D72C-46DD-A5F5-D8E6038B9400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD6530D-1534-4CB6-9749-B8CB9FFDF9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD6530D-1534-4CB6-9749-B8CB9FFDF9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD6530D-1534-4CB6-9749-B8CB9FFDF9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD6530D-1534-4CB6-9749-B8CB9FFDF9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DF034DD-C7E9-4929-B8BE-1090CB58D2EA} = {2C227BE4-035E-45A1-A39A-FAD2025CD770}
+		{5F8A386B-D72C-46DD-A5F5-D8E6038B9400} = {09525277-C49F-448E-893F-598D00D8B431}
+		{ACD6530D-1534-4CB6-9749-B8CB9FFDF9F8} = {BF7584EE-A12A-441C-8244-765DB522A9A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1029624-A23D-4CEB-8813-08682A200770}
+	EndGlobalSection
+EndGlobal
